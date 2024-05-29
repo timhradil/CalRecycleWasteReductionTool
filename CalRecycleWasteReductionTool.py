@@ -15,7 +15,7 @@ data_long = data.melt(id_vars=['Sector'], value_vars=['Disposed', 'Recycle', 'Or
                       var_name='Waste_Type', value_name='Amount')
 
 # Title and Introduction
-st.title("Waste Reduction Visualization Tool")
+st.title("CalRecycle Waste Reduction Tool")
 st.markdown("""
 This tool is designed to help visualize waste production by sector, based on the comprehensive study 
 performed in 2014, as reported in the 'Generator-Based Characterization of Commercial Sector Disposal and 
